@@ -1,0 +1,76 @@
+
+.format_block{
+	width: 600px;
+	margin: auto;
+	margin-top: 3em;
+	padding: 1em;
+	cursor: pointer;
+}
+
+.orange{
+	color: orange;
+	font-weight: bold;
+	text-align: left;
+}
+
+.blue{
+	color: blue;
+	font-weight: bold;
+}
+
+.grey{
+	color: grey;
+}
+
+.green{
+	color: green;
+}
+
+p:first-letter {
+    color: red;
+	font-weight: bold;
+	font-size: 36px;
+   }
+
+span{
+	color: white;
+	background-color: green;
+}
+
+h1{
+	color: orange;
+	text-align: right;
+}
+
+h2{
+	font-size: 28px;
+}
+
+ul li{
+	font-weight: bold;
+}
+
+ol{
+	color: red;
+}
+
+table{
+	width: 65%;
+	height: 150px;
+	border: 1px solid grey;
+	border-spacing: 3px;
+    border-collapse: separate;
+	font-weight: bold;
+}
+	
+th{
+	border: 1px solid grey;
+}
+
+td{
+	border: 1px solid grey;
+	font-weight: bold;
+	text-align: center;
+	background: green;
+	color: white;
+}

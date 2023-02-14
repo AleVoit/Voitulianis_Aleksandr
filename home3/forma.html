@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Работа в зоопарке</title>
+</head>
+
+<body>
+    <h1>Форма заявки на работу в зоопарке</h1>
+    <em>Пожалуйста, заполните форму. Обязательные поля помечены <span style="color: red;">*</span></em>
+    <br><br>
+    <form style="width:40%">
+        <fieldset>
+            <legend><b>Контактная информация</b></legend>
+            <table>
+                <tr>
+                    <td width="120"><label for="login">Имя<span style="color: red;">*</span></label></td>
+                    <td><input type="text" id="login" name="login" size="30" required></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Телефон</label></td>
+                    <td><input type="tel" id="phone" name="phone" maxlength="21" pattern="+375([0-9]{2})[0-9]{2}-[0-9]{2}-[0-9]{3}" size="30"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email<span style="color: red;">*</span></label></td>
+                    <td><input type="email" name="mail" id="email" size="30" required></td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Персональная информация</b></legend>
+			<table>
+                <tr>
+                    <td width="120"><label for="age">Возраст<span style="color: red;">*</span></label></td>
+                    <td><input type="number" step="1" min="1" max="100" id="age" name="age" required></td>
+                </tr>
+                <tr>
+                    <td><label for="sex">Пол</label></td>
+                    <td>	
+						<select name="sex" size="1" width="239px">
+							<option selected value="s1">Женщина</option>
+							<option value="s2">Мужчина</option>
+						</select>
+					</td>
+                </tr>
+                <tr>
+                    <td><label for="comment">Перечислите<br>личные<br>качества</label></td>
+                    <td><textarea name="comment" id="comment" maxlength="200" cols="30" rows="7"></textarea></td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Выберите ваших любимых животных</b></legend>
+			<table>
+				<tr>
+					<td width="120"><input type="checkbox" value="zebra" name="animal">Зебра</td>
+					<td width="120"><input type="checkbox" value="koshak" name="animal">Кошак</td>
+					<td width="120"><input type="checkbox" value="anaconda" name="animal">Анаконда</td>
+					<td width="120"><input type="checkbox" value="man" name="animal">Человек</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" value="slon" name="animal">Слон</td>
+					<td><input type="checkbox" value="antilopa" name="animal">Антилопа</td>
+					<td><input type="checkbox" value="golub" name="animal">Голубь</td>
+					<td><input type="checkbox" value="krab" name="animal">Краб</td>
+				</tr>
+			</table>
+        </fieldset>
+        <br>
+        <input type="submit" value="Отправить информацию">
+    </form>
+</body>
+
+</html>
