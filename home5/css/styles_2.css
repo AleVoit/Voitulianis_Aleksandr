@@ -1,0 +1,172 @@
+@font-face {
+	font-family: 'Trebuchet'; 
+	src: url(../font/font.ttf); 
+}
+
+.blocks{
+	width: 610px;
+	cursor: pointer;
+	font-family: 'Trebuchet';
+	margin-left: 25%;
+	margin-top: 10%;
+}
+
+h1{
+	text-align: center;
+	font-size: 21px;
+}
+
+.blue_block{
+	width: 200px;
+	float: left; 
+	margin-top: 10px;
+	border-top-style: white;
+	border-top-width: 1px; 
+    border-top-color: #F1F3F4;
+	border-left-style: solid;
+	border-left-width: 1px; 
+    border-left-color: #F1F3F4;
+	border-bottom-style: solid;
+	border-bottom-width: 1px; 
+    border-bottom-color: #F1F3F4;
+	border-radius: 5px;
+}
+
+.orange_block{
+	width: 200px;
+	float: left;
+	padding-bottom: 10px;
+	border: 3px solid #EF8128;
+	border-radius: 5px;
+	box-shadow: 0 0 10px 1px;
+	position: relative;
+	z-index: 1;
+}
+
+.green_block{
+	width: 200px;
+	float: left; 
+	margin-top: 10px;
+	border-top-style: solid;
+	border-top-width: 1px; 
+    border-top-color: white;
+	border-right-style: solid;
+	border-right-width: 1px; 
+    border-right-color: #F1F3F4;
+	border-bottom-style: solid;
+	border-bottom-width: 1px; 
+    border-bottom-color: #F1F3F4;
+	border-radius: 5px;
+	position: relative;
+	z-index: -1;
+}
+
+h2{
+	margin-top: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+
+.blue
+{
+	background-color: #2AC2D5;
+	border-radius: 3px;
+}
+
+.best
+{
+	margin-top: 0px;
+	padding-top: 14px;
+	padding-bottom: 15px;
+	background-color: #EF8128;
+}
+
+.orange
+{
+	background-color: #EF8128;
+}
+
+.green
+{
+	background-color: #13B89A;
+	border-radius: 3px;
+}
+
+.blue2
+{
+	background-color: #2F70A8;
+}
+
+h3{
+	text-align: center;
+	font-size: 16px;
+}
+
+h4{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 36px;
+}
+
+ul{
+	font-size: 12px;
+	color:grey;
+	list-style-type: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-left: 0px;
+}
+
+li{
+	padding-left: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 2px;
+	border: 1px;
+	background: url("../img/arrow.png") no-repeat;
+	background-size: 10px;
+	background-position: 10%;
+}
+
+li:nth-child(odd) {
+	background-color: lightcyan;
+}
+
+li:nth-child(even) {
+	background-color: aliceblue;
+}
+
+p{
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: 10px;
+}
+
+a{
+	border-radius: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+}
+
+sup{
+	position: relative;
+	vertical-align: text-top;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+sub{
+	font-size: 16px;
+	font-weight: normal;
+	position: relative;
+	vertical-align: text-bottom;
+}
